@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - http://www.astrochemistry.org
+  - http://www.astrochemistry.org/pahdb/
 ---
