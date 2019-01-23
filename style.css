@@ -1,0 +1,94 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+    height: 100%;
+}
+
+#header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #0099ff;
+    color: white;
+}
+
+#header #title {
+    max-width: 45em;
+}
+
+#header h1 {
+    padding: 1em 1em 0 0;
+    text-align: right;
+    margin: 0;
+}
+
+#header h2 {
+    padding: 0 1em 1em 0;
+    text-align: right;
+    margin: 0;
+}
+
+#content {
+    padding: 1em 1em 7em 1em;
+}
+
+#content #website {
+    margin-top: 3em;
+    padding: 1em 1em 1em 0;
+    display: inline-block;
+    border-right: solid 2px #0099ff;
+}
+
+#content #software {
+    margin-top: 3em;
+    padding: 1em 0 1em 1em;
+    margin-top: 2em;
+    display: inline-block;
+}
+
+#content a.tile {
+    margin: auto;
+    background-color: #cccccc;
+    border: 3px outset #444444;
+    padding: 2em 1em;
+    text-decoration: none;
+    color: #000;
+    font-style: italic;
+    border-radius: 0.5em;
+    display: inline-block;
+}
+
+#content a.link {
+    text-align: center;
+    display:block;
+    margin-top: 1em;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: small;
+    background-color: #ffffff;
+}
+
+#footer #acknowledgements {
+    background: #0099ff;
+    color: white;
+}
+
+#footer p {
+    padding: 1em 0 1em 1em;
+    margin: 0;
+}
+
+#footer #copyright {
+    font-size: x-small;
+    padding-left: 1em;
+}
+
+p {
+    max-width: 45em;
+}
