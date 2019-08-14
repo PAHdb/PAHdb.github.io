@@ -31,19 +31,17 @@ html, body {
 
 #content {
     padding: 1em 1em 7em 1em;
+    max-width: 45em;
 }
 
-#content #website {
-    margin-top: 3em;
-    padding: 1em 0.5em 1em 0;
-    display: inline-block;
-    border-right: solid 2px #0099ff;
+#content #website, #software, #cookbook {
+    margin-top: 1em;
+    border-bottom: solid 2px #0099ff;
+    text-align: center;
 }
 
-#content #software {
-    margin-top: 3em;
-    padding: 1em 0;
-    display: inline-block;
+#content #cookbook {
+    border: 0;
 }
 
 #content a.tile {
@@ -64,8 +62,8 @@ html, body {
 
 #content a.link {
     text-align: center;
-    display:block;
-    margin-top: 1em;
+    display: block;
+    margin: 0.5em 0;
 }
 
 #footer {
