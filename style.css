@@ -1,94 +1,109 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-html, body {
-    font-family: "Open Sans";
-    height: 100%;
+html,
+body {
+  font-family: "Open Sans";
+  height: 100%;
 }
 
 #header {
-    width: 100%;
-    background-color: #0099ff;
-    color: white;
+  width: 100%;
+  background: #0099ff url("images/patch.png") no-repeat 0.5em 1em;
+  color: white;
 }
 
 #header #title {
-    max-width: 45em;
+  max-width: 45em;
 }
 
 #header h1 {
-    padding: 1em 1em 0 0;
-    text-align: right;
-    margin: 0;
+  padding: 1em 1em 0 0;
+  text-align: right;
+  margin: 0;
 }
 
 #header h2 {
-    padding: 0 1em 1em 0;
-    text-align: right;
-    margin: 0;
+  padding: 0 1em 1em 0;
+  text-align: right;
+  margin: 0;
 }
 
 #content {
-    padding: 1em 1em 7em 1em;
-    max-width: 45em;
+  padding: 1em 1em 7em 1em;
+  max-width: 45em;
 }
 
-#content #website, #software, #cookbook {
-    margin-top: 1em;
-    border-bottom: solid 2px #0099ff;
-    text-align: center;
+#content #website,
+#software,
+#cookbook {
+  margin-top: 1em;
+  border-bottom: solid 2px #0099ff;
+  text-align: center;
 }
 
 #content #cookbook {
-    border: 0;
+  border: 0;
 }
 
 #content a.tile {
-    background-color: #cccccc;
-    border: 3px outset #444444;
-    padding: 2em 1em;
-    text-decoration: none;
-    color: #000;
-    font-style: italic;
-    border-radius: 0.5em;
-    display: inline-block;
-    margin-left: 0.5em;
+  background-color: #cccccc;
+  border: 3px outset #444444;
+  padding: 2em 1em;
+  text-decoration: none;
+  color: #000;
+  font-style: italic;
+  border-radius: 0.5em;
+  display: inline-block;
+  margin-left: 0.5em;
 }
 
 #block {
-    display: inline-block;
+  display: inline-block;
 }
 
 #content a.link {
-    text-align: center;
-    display: block;
-    margin: 0.5em 0;
+  text-align: center;
+  display: block;
+  margin: 0.5em 0;
 }
 
 #footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    font-size: small;
-    background-color: #ffffff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: small;
+  background-color: #ffffff;
 }
 
 #footer #acknowledgements {
-    background: #0099ff;
-    color: white;
+  background: #0099ff;
+  color: white;
+  font-size: smaller;
+  text-align: justify;
 }
 
 #footer p {
-    padding: 1em 0 1em 1em;
+  padding: 1em 0 1em 1em;
 }
 
 #footer #copyright {
-    font-size: x-small;
-    padding-left: 1em;
+  font-size: x-small;
+  padding-left: 1em;
 }
 
 p {
-    max-width: 45em;
+  max-width: 45em;
+}
+
+@media (min-resolution: 2dppx),
+  (min-resolution: 144dpi),
+  (-webkit-min-device-pixel-ratio: 2),
+  (-o-min-device-pixel-ratio: 2/1) {
+  #header {
+    background: #0099ff url("images/patch@2x.png") no-repeat 0.5em 1em;
+    background-size: 100px 100px;
+  }
 }
